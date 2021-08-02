@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    
+}
+header{
+       
+    background-color: #000;
+    color: aliceblue;
+    align-items: center;
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: aliceblue;
+    align-items: center;
+    padding-right: 50px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+img{
+    width: 150px;
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    
+}
+li{
+        margin: 10px 10px;
+}
+
+.icon{
+    font-size: 25px;
+
+}
+
+.pages{
+    font-size: 20px;
+}
