@@ -2,17 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    
 }
 body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     
 }
 header{
-       
+    
     background-color: #000;
     color: aliceblue;
     align-items: center;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, .5);
     
     
     
@@ -33,7 +34,7 @@ a{
     text-decoration: none;
 
 }
-img{
+.logo{
     width: 150px;
     
 }
@@ -55,3 +56,35 @@ li{
 .pages{
     font-size: 20px;
 }
+
+.btn_principal{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, .5);
+}
+.btn_principal:hover{
+    background-color: #000;
+    transform: scale(1.2);
+    
+}
+
+.banner{
+    display: flex;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    color: rgba(0, 0, 0, .5);
+
+}
+
+
